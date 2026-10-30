@@ -1,4 +1,4 @@
-package P10;
+
 import java.util.Scanner;
 /*
 n = (2 +(10 mod 3)) = 3 */
