@@ -1,5 +1,3 @@
-package P10;
-
 import java.util.Scanner;
 /*
 P = 10
@@ -14,7 +12,7 @@ public class Star10 {
         System.out.print("Masukkan nilai n = ");
         int n = sc.nextInt();
 
-        for (int i = 1; i <= n; i++) {
+        for (int i = 0; i <= n; i++) {
             System.out.print("*");
         }
         System.out.println();
