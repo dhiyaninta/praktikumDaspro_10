@@ -12,9 +12,6 @@ public class penjualanTiketBioskop10 {
         int harga = 48000, jmlTiket = 0, i = 0, totaltiket = 0;
         double diskon = 0, totalHarga = 0, totaHarga1hari = 0;
 
-        System.out.print("Masukkan jumlah tiket: ");
-        jmlTiket = sc.nextInt();
-       
         while (true) {
             System.out.print("Masukkan jumlah tiket: ");
             jmlTiket = sc.nextInt();
@@ -42,4 +39,4 @@ public class penjualanTiketBioskop10 {
         System.out.println("Total tiket dalam 1 hari: " + totaltiket);
         System.out.println("Total harga dalam 1 hari: Rp" + totaHarga1hari);
     }
-}
+} 
